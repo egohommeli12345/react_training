@@ -1,0 +1,35 @@
+.tile {
+    width: 100vw;
+    height: 750px;
+    display: flex;
+}
+
+.smalltile {
+    width: 30%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.smalltile .button {
+    width: 50%;
+    height: 50px;
+    background-color: #ff9f1c;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigtile {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
